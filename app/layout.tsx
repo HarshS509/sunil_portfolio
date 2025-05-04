@@ -23,7 +23,7 @@ export default function RootLayout({
       <head>
         {/* Google AdSense Script */}
        
-    <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7771098050633943"
+    <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8133211996770471"
      crossOrigin="anonymous" strategy="afterInteractive" ></Script>
       </head>
       <body className={inter.className} suppressHydrationWarning>
