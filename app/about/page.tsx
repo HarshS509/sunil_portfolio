@@ -33,6 +33,12 @@ export default function AboutPage() {
           >
             Contact
           </Link>
+          <Link
+            href="/privacy"
+            className="hover:text-emerald-500 transition-colors"
+          >
+            Privacy
+          </Link>
         </nav>
         <Button
           variant="outline"

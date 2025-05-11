@@ -14,10 +14,7 @@ export default function ContactPage() {
           </h1>
         </Link>
         <nav className="hidden md:flex gap-6">
-          <Link
-            href="/portfolio"
-            className="hover:text-emerald-500 transition-colors"
-          >
+          <Link href="/" className="hover:text-emerald-500 transition-colors">
             Portfolio
           </Link>
           <Link
@@ -34,6 +31,12 @@ export default function ContactPage() {
           </Link>
           <Link href="/contact" className="text-emerald-500">
             Contact
+          </Link>
+          <Link
+            href="/privacy"
+            className="hover:text-emerald-500 transition-colors"
+          >
+            Privacy
           </Link>
         </nav>
         <Button
@@ -85,7 +88,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Phone</p>
-                    <p className="font-medium">+1 (555) 123-4567</p>
+                    <p className="font-medium">+91 8347039239</p>
                   </div>
                 </div>
 
@@ -108,7 +111,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Email</p>
-                    <p className="font-medium">contact@3dcraft.com</p>
+                    <p className="font-medium">kubavatsunil2703@gmail.com</p>
                   </div>
                 </div>
 
@@ -137,7 +140,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Location</p>
-                    <p className="font-medium">San Francisco, CA</p>
+                    <p className="font-medium">Surat, Gujarat</p>
                   </div>
                 </div>
               </div>

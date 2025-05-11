@@ -17,79 +17,47 @@ export default function ServicesPage() {
   const services = [
     {
       id: 1,
-      title: "Jewelry 3D Modeling",
+      title: "Car 3D Modeling & Visualization",
       description:
-        "High-fidelity 3D models of rings, necklaces, earrings, and other jewelry pieces with precise gemstone faceting and metal detailing.",
-      icon: <Gem className="w-10 h-10 text-emerald-500" />,
-      deliverables: ["3D Model Files", "Renders", "Technical Specifications"],
+        "Realistic and stylized 3D models of cars for animation, games, and product visualization. Includes dynamic lighting, texturing, and rendering.",
+      icon: <Cube className="w-10 h-10 text-emerald-500" />,
+      deliverables: ["3D Car Models", "Renders", "Animation Sequences"],
     },
     {
       id: 2,
-      title: "Watch Visualization",
+      title: "Character Design & Modeling",
       description:
-        "Detailed 3D models of watches with accurate mechanical components, materials, and textures for photorealistic visualization.",
-      icon: <Watch className="w-10 h-10 text-emerald-500" />,
-      deliverables: ["3D Model Files", "Renders", "Animation"],
+        "Custom 3D character creation for games, animation, and concept art. Includes stylized and realistic characters, rigging, and texturing.",
+      icon: <Palette className="w-10 h-10 text-emerald-500" />,
+      deliverables: ["3D Character Models", "Turntables", "Rigged Assets"],
     },
     {
       id: 3,
-      title: "Product Rendering",
+      title: "Environment Modeling",
       description:
-        "Studio-quality renders of your 3D models with professional lighting, materials, and composition for marketing and presentations.",
+        "Detailed 3D environments for games, films, and visualization. Includes natural landscapes, urban scenes, and custom settings.",
       icon: <Lightbulb className="w-10 h-10 text-emerald-500" />,
-      deliverables: [
-        "High-Resolution Images",
-        "Different Angles",
-        "Custom Environments",
-      ],
+      deliverables: ["3D Environment Models", "Scene Renders", "Custom Assets"],
     },
     {
       id: 4,
-      title: "Technical Modeling",
+      title: "Jewellery Visualization",
       description:
-        "Precise technical 3D models with accurate dimensions and mechanical functionality for manufacturing and engineering purposes.",
-      icon: <Cog className="w-10 h-10 text-emerald-500" />,
-      deliverables: ["CAD Files", "Technical Drawings", "Specifications"],
+        "High-fidelity 3D models and renders of rings, pendants, earrings, and more. Perfect for catalogs, marketing, and virtual try-on.",
+      icon: <Gem className="w-10 h-10 text-emerald-500" />,
+      deliverables: [
+        "3D Jewellery Models",
+        "Photorealistic Renders",
+        "Animation",
+      ],
     },
     {
       id: 5,
-      title: "3D Animation",
-      description:
-        "Dynamic animations of your 3D models to showcase functionality, design features, and aesthetic details in motion.",
-      icon: <Layers className="w-10 h-10 text-emerald-500" />,
-      deliverables: ["Animation Files", "Video Renders", "Storyboards"],
-    },
-    {
-      id: 6,
-      title: "Concept Visualization",
-      description:
-        "Transform your sketches and ideas into detailed 3D visualizations to evaluate design concepts before production.",
-      icon: <Palette className="w-10 h-10 text-emerald-500" />,
-      deliverables: ["Concept Models", "Renders", "Design Iterations"],
-    },
-    {
-      id: 7,
-      title: "AR/VR Development",
-      description:
-        "Integration of 3D models into augmented and virtual reality experiences for interactive product visualization.",
-      icon: <Smartphone className="w-10 h-10 text-emerald-500" />,
-      deliverables: [
-        "AR/VR Ready Models",
-        "Interactive Prototypes",
-        "Technical Support",
-      ],
-    },
-    {
-      id: 8,
       title: "Custom 3D Solutions",
       description:
-        "Tailored 3D modeling and visualization solutions for your specific project requirements and industry needs.",
-      icon: <Cube className="w-10 h-10 text-emerald-500" />,
-      deliverables: [
-        "Custom Solutions",
-        "Consultation",
-        "Technical Documentation",
-      ],
+        "Tailored 3D modeling and visualization for your unique project needs, including AR/VR, product design, and more.",
+      icon: <Cog className="w-10 h-10 text-emerald-500" />,
+      deliverables: ["Consultation", "Custom Models", "Technical Support"],
     },
   ];
 
@@ -102,10 +70,7 @@ export default function ServicesPage() {
           </h1>
         </Link>
         <nav className="hidden md:flex gap-6">
-          <Link
-            href="/portfolio"
-            className="hover:text-emerald-500 transition-colors"
-          >
+          <Link href="/" className="hover:text-emerald-500 transition-colors">
             Portfolio
           </Link>
           <Link href="/services" className="text-emerald-500">
@@ -122,6 +87,12 @@ export default function ServicesPage() {
             className="hover:text-emerald-500 transition-colors"
           >
             Contact
+          </Link>
+          <Link
+            href="/privacy"
+            className="hover:text-emerald-500 transition-colors"
+          >
+            Privacy
           </Link>
         </nav>
         <Button
@@ -143,9 +114,10 @@ export default function ServicesPage() {
             Professional 3D Services
           </h2>
           <p className="text-gray-300">
-            Specialized 3D modeling and visualization services for jewelry,
-            watches, and luxury products. From concept to final render, I
-            deliver high-quality 3D assets for your specific needs.
+            Specialized 3D modeling and visualization services for cars,
+            characters, environments, and jewellery. From concept to final
+            render, I deliver high-quality 3D assets for your creative and
+            business needs.
           </p>
         </div>
 
